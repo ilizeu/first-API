@@ -1,0 +1,27 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pong.js",
+  "bin": {
+    "first-api": "server.js"
+  },
+  "scripts": {
+    "pong": "node node_modules/nodemon/bin/nodemon bin/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilizeu/first-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilizeu/first-API/issues"
+  },
+  "homepage": "https://github.com/ilizeu/first-API#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
