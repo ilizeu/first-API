@@ -44,9 +44,10 @@ function onListening() {
   const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port
   debug('Listening on ' + bind)
 }
+
 // parte do servidor
 const server = http.createServer(app)
 server.listen(port)
 server.on('error', onError)
 server.on('listening', onListening)
-console.log(`API is alive on ${port}!`)
+console.log(`Servidor iniciado na porta ${port}!`)
